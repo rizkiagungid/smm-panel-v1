@@ -22,8 +22,9 @@ password : 12345
 silahkan ke menu daftar.php
 
 berikut screenshot dari project ini
-src="assets/img/ss1.png" alt="ss1">
-src="assets/img/ss2.png" alt="ss2">
+![ss1](https://user-images.githubusercontent.com/77620549/211453132-c64f018c-8765-4025-a4f8-097319a22eac.png)
+![ss2](https://user-images.githubusercontent.com/77620549/211453137-ebe113c9-537f-4152-be9d-2334308c7cd5.png)
+
 
 Terima kasih !
 silahkan fork project ini bila perlu ya
