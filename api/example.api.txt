@@ -1,0 +1,56 @@
+<?php
+// contoh api
+function connect($end_point, $post) {
+	$_post = array();
+	if (is_array($post)) {
+		foreach ($post as $name => $value) {
+			$_post[] = $name.'='.urlencode($value);
+		}
+	}
+	$ch = curl_init($end_point);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	curl_setopt($ch, CURLOPT_POST, 1);
+	curl_setopt($ch, CURLOPT_HEADER, 0);
+	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+	if (is_array($post)) {
+		curl_setopt($ch, CURLOPT_POSTFIELDS, join('&', $_post));
+	}
+	curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)');
+	$result = curl_exec($ch);
+	if (curl_errno($ch) != 0 && empty($result)) {
+		$result = false;
+	}
+	curl_close($ch);
+	return $result;
+}
+
+// contoh menampilkan layanan
+$api_url = 'api_url'; // api url
+$post_data = array(
+	'api_key' => 'randomkey', // api key Anda
+	'action' => 'services'
+);
+$api = json_decode(connect($api_url, $post_data));
+print_r($api);
+
+// contoh membuat pesanan
+$api_url = 'api_url'; // api url
+$post_data = array(
+	'api_key' => 'randomkey', // api key Anda
+	'action' => 'order',
+	'service' => 1, // id layanan
+	'data' => 'tomy satriandy',
+	'quantity' => 150
+);
+$api = json_decode(connect($api_url, $post_data));
+print_r($api);
+
+// contoh mengecek status pesanan
+$api_url = 'api_url'; // api url
+$post_data = array(
+	'api_key' => 'randomkey', // api key Anda
+	'action' => 'status',
+	'id' => '9' // id pesanan
+);
+$api = json_decode(connect($api_url, $post_data));
+print_r($api);

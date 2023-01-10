@@ -1,0 +1,12 @@
+[31-May-2022 20:06:03 Asia/Jakarta] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/fspediam/public_html/mainconfig.php on line 49
+[31-May-2022 20:06:03 Asia/Jakarta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/fspediam/public_html/mainconfig.php on line 49
+[31-May-2022 20:07:04 Asia/Jakarta] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/fspediam/public_html/mainconfig.php on line 49
+[31-May-2022 20:07:04 Asia/Jakarta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/fspediam/public_html/mainconfig.php on line 49
+[31-May-2022 20:10:03 Asia/Jakarta] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/fspediam/public_html/mainconfig.php on line 49
+[31-May-2022 20:10:03 Asia/Jakarta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/fspediam/public_html/mainconfig.php on line 49
+[31-May-2022 20:15:02 Asia/Jakarta] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/fspediam/public_html/mainconfig.php on line 49
+[31-May-2022 20:15:02 Asia/Jakarta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/fspediam/public_html/mainconfig.php on line 49
+[31-May-2022 20:20:01 Asia/Jakarta] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/fspediam/public_html/mainconfig.php on line 49
+[31-May-2022 20:20:01 Asia/Jakarta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/fspediam/public_html/mainconfig.php on line 49
+[31-May-2022 20:25:01 Asia/Jakarta] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/fspediam/public_html/mainconfig.php on line 49
+[31-May-2022 20:25:01 Asia/Jakarta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/fspediam/public_html/mainconfig.php on line 49

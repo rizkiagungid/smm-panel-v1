@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Hosted by DomaiNesia">
+    <meta name="keywords" content="domainesia">
+    <title>404 Not Found</title>
+    <link rel="shortcut icon" href="https://files.domainesia.com/repo/cpanel-assets/defaults/favicon.png">
+    <link rel="stylesheet" type="text/css" href="https://files.domainesia.com/repo/cpanel-assets/defaults/css/404.css">
+    <script type="text/javascript" src="https://files.domainesia.com/repo/cpanel-assets/defaults/js/jquery-1.10.2-min.js"></script>
+    <script type="text/javascript" src="https://files.domainesia.com/repo/cpanel-assets/defaults/js/bara-custom.js"></script>
+</head>
+<!--  Body   -->
+<body>
+    <!--     Wrapper     -->
+    <div id="wrapper" class="gradient">
+    <div id="logoimg">
+          <!--  Company Logo  -->
+            <a href="https://www.domainesia.com"><img src="https://files.domainesia.com/repo/cpanel-assets/defaults/img/rocket-logo-border.png" alt="hosting berkualitas" title="hosting berkualitas"/></a>
+    </div> <!--  End Header  -->
+
+        <!--     Background Elements     -->
+        <div class="skyelement jupiter"></div>
+        <div class="skyelement moon2"></div>
+        <div class="skyelement mount"></div>
+        <div class="ccontainer">
+            <div id="clouds">
+                <div class="skyelement cloud1"></div>
+                <div class="skyelement cloud2"></div>
+            </div>
+            <div id="clouds2">
+                <div class="skyelement cloud3"></div>
+                <div class="skyelement cloud4"></div>
+                <div class="skyelement cloud5"></div>
+            </div>
+            <div id="clouds3">
+                <div class="skyelement cloud1"></div>
+                <div class="skyelement cloud2"></div>
+                <div class="skyelement cloud3"></div>
+                <div class="skyelement cloud4"></div>
+                <div class="skyelement cloud5"></div>
+            </div>
+		</div>
+        <div class="skyelement crash"></div>
+        <div class="skyelement ground"></div>
+        <div class="skyelement mushroom"></div>
+        <div class="skyelement mushroom2"></div>
+
+        <!--     Content Box      -->
+        <div class="skyelement content">
+        	<!--     Inner Box      -->
+        	<div class="inner">
+                <div class="chain1"></div>
+                <div class="chain2"></div>
+                <!--   Title for Content Box    -->
+                <h1>404 - Not Found</h1>
+                <!--    Message    -->
+                <div class="errorMessage">
+                    <p>Destinasi tidak terjangkau.</p>
+                </div>
+                <!--	Navigation	-->
+                <div class="errorNav">
+                <!--	Menu	-->
+                <div class="menu">
+                    <a href="https://www.domainesia.com/" title="hosting berkualitas">Proudly Hosted by DomaiNesia</a>
+                </div> <!--	 End Menu	-->
+                </div> <!--	 End Navigation	  -->
+			</div> <!--     End Inner Box      -->
+        </div> <!--    End Content Box      -->
+    </div> <!--    End Wrapper     -->
+    <div id="footer"></div>
+</body>
+</html>
